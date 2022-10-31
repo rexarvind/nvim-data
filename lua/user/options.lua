@@ -1,40 +1,42 @@
-vim.opt.backup = false                          -- creates a backup file
-vim.opt.clipboard = "unnamedplus"               -- allows neovim to access system clipboard
-vim.opt.cmdheight = 1                           -- more space in neovim command line for displaying messages
-vim.opt.completeopt = { "menuone", "noselect" } -- mostly just for cmp
-vim.opt.conceallevel = 0                        -- so that `` is visible in markdown files
-vim.opt.fileencoding = "utf-8"                  -- encoding written to a file
-vim.opt.hlsearch = true                         -- highlight all matches on previous search pattern
-vim.opt.ignorecase = true                       -- ignore case in search patterns
-vim.opt.mouse = "a"                             -- allow the mouse to be used in neovim
-vim.opt.pumheight = 10                          -- pop up menu height
-vim.opt.showmode = true                         -- show current mode like -- INSERT --
-vim.opt.showtabline = 0                         -- always show tabs
-vim.opt.smartcase = true                        -- smart case
-vim.opt.smartindent = true                      -- make indenting smarter again
-vim.opt.splitbelow = true                       -- force all horizontal splits to go below current window
-vim.opt.splitright = true                       -- force all vertical splits to go to right of current window
-vim.opt.swapfile = false                        -- creates a swap file
-vim.opt.termguicolors = true                    -- set terminal gui colors (most terminals support this)
-vim.opt.timeoutlen = 1000                       -- time to wait for mapped sequence to complete (in milliseconds)
-vim.opt.undofile = true                         -- enable persistent undo
-vim.opt.updatetime = 300                        -- faster completions (4000ms default)
-vim.opt.writebackup = false                     -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
-vim.opt.expandtab = true                        -- convert tabs to spaces
-vim.opt.shiftwidth = 2                          -- number of spaces inserted for each indentation
-vim.opt.tabstop = 2                             -- number of spaces for TAB key
-vim.opt.cursorline = true                       -- highlight current line
-vim.opt.number = true                           -- set numbered lines
-vim.opt.laststatus = 3                          -- only the last window will always have a status line
-vim.opt.showcmd = false                         -- hide (partial) command in the last line of the screen (for performance)
-vim.opt.ruler = false                           -- hide the line and column number of the cursor position
-vim.opt.numberwidth = 3                         -- minimal number of columns to use for the line number (default 4)
-vim.opt.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
-vim.opt.wrap = false                            -- display lines as one long line
-vim.opt.scrolloff = 4                           -- minimum number of screen lines to keep above and below the cursor
-vim.opt.sidescrolloff = 4                       -- minimum number of screen lines columns to keep to the left and right of the cursor if warp is `false`
-vim.opt.guifont = "consolas:h12"               -- the font used in graphical neovim applications
-vim.opt.fillchars.eob=" "                       -- show empty lines at the end of a buffer as ` ` (default is `-`)
-vim.opt.shortmess:append "c"                    -- hide all the completion messages, e.g. "-- xxx completion (yyy)", "match 1 of 2", "The only watch", "Pattern not found"
-vim.opt.whichwrap:append("<,>,[,],h,l")         -- keys allowed to move to the previous/next line when the beginning/end of the line is reached
-vim.opt. iskeyword:append("-")                  -- treats words with `-` as single words
+local o = vim.opt
+o.backup = false                          -- creates a backup file
+o.clipboard = "unnamedplus"               -- allows neovim to access system clipboard
+o.cmdheight = 1                           -- more space in neovim command line for displaying messages
+o.completeopt = { "menuone", "noselect" } -- mostly just for cmp
+o.conceallevel = 0                        -- so that `` is visible in markdown files
+o.fileencoding = "utf-8"                  -- encoding written to a file
+o.hlsearch = true                         -- highlight all matches on previous search pattern
+o.ignorecase = true                       -- ignore case in search patterns
+o.mouse = "a"                             -- allow the mouse to be used in neovim
+o.pumheight = 10                          -- pop up menu height
+o.showmode = true                         -- show current mode like -- INSERT --
+o.showtabline = 0                         -- always show tabs
+o.smartcase = true                        -- smart case
+o.smartindent = true                      -- make indenting smarter again
+o.splitbelow = true                       -- force all horizontal splits to go below current window
+o.splitright = true                       -- force all vertical splits to go to right of current window
+o.swapfile = false                        -- creates a swap file
+o.termguicolors = true                    -- set terminal gui colors (most terminals support this)
+o.timeoutlen = 1000                       -- time to wait for mapped sequence to complete (in milliseconds)
+o.undofile = true                         -- enable persistent undo
+o.updatetime = 300                        -- faster completions (4000ms default)
+o.writebackup = false                     -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
+o.expandtab = true                        -- convert tabs to spaces
+o.shiftwidth = 2                          -- number of spaces inserted for each indentation
+o.tabstop = 2                             -- number of spaces for TAB key
+o.cursorline = true                       -- highlight current line
+o.number = true                           -- set numbered lines
+o.laststatus = 3                          -- only the last window will always have a status line
+o.showcmd = false                         -- hide (partial) command in the last line of the screen (for performance)
+o.ruler = false                           -- hide the line and column number of the cursor position
+o.numberwidth = 3                         -- minimal number of columns to use for the line number (default 4)
+o.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
+o.wrap = false                            -- display lines as one long line
+o.scrolloff = 4                           -- minimum number of screen lines to keep above and below the cursor
+o.sidescrolloff = 4                       -- minimum number of screen lines columns to keep to left and right of the cursor if warp is `false`
+o.guifont = "FiraCode NFM:h12"               -- the font used in graphical neovim applications
+o.fillchars.eob=" "                       -- show empty lines at the end of a buffer as ` ` (default is `-`)
+o.shortmess:append "c"                    -- hide all the completion messages, e.g. "-- xxx completion (yyy)", "match 1 of 2", "The only watch", "Pattern not found"
+o.whichwrap:append("<,>,[,],h,l")         -- keys allowed to move to the previous/next line when the beginning/end of the line is reached
+o. iskeyword:append("-")                  -- treats words with `-` as single words
+
