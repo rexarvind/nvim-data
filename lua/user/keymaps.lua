@@ -43,13 +43,20 @@ keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 keymap("v", "p", '"_dP', opts)
 
 -- Insert --
--- Press jk fast to enter
+-- Press jk fast to enter normal mode
 keymap("i", "jk", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
+
+
+-- Move Line up and down --
+keymap("n", "<A-j>", ":m +1<CR>", opts)
+keymap("n", "<A-k>", ":m -2<CR>", opts)
+
+
 
 -- Plugins --
 

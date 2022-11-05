@@ -6,8 +6,8 @@ local servers = {
 	"intelephense",
 	"grammarly",
 	"tsserver",
-	"jsonls",
---	"yamlls",
+	-- "jsonls",
+  -- "yamlls",
 }
 
 local settings = {
