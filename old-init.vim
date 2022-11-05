@@ -37,11 +37,3 @@ inoremap <silent><expr> <TAB>
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
-
-
-" general commands
-" :help vimrc-intro   opens vim configuration help manual
-" :edit $MYVIMRC      edit the vim configuration file, can also use lowercase
-" :edit $myvimrc
-"
-"
