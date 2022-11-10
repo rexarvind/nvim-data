@@ -94,15 +94,30 @@ _G.packer_plugins = {
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
-  ["darkplus.nvim"] = {
+  ["cmp-buffer"] = {
     loaded = true,
-    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darkplus.nvim",
-    url = "https://github.com/lunarvim/darkplus.nvim"
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
   },
-  ["dashboard-nvim"] = {
+  ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim",
-    url = "https://github.com/glepnir/dashboard-nvim"
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lua",
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -129,10 +144,40 @@ _G.packer_plugins = {
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -174,15 +219,25 @@ _G.packer_plugins = {
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["toggleterm.nvim"] = {
+  ["tokyonight.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
-    url = "https://github.com/akinsho/toggleterm.nvim"
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-bbye"] = {
     loaded = true,
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-bbye",
     url = "https://github.com/moll/vim-bbye"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   }
 }
 

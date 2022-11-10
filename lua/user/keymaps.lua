@@ -45,6 +45,8 @@ keymap("v", "p", '"_dP', opts)
 -- Insert --
 -- Press jk fast to enter normal mode
 keymap("i", "jk", "<ESC>", opts)
+-- keymap("i", "<A-h>", "<ESC>h i", opts)
+-- keymap("i", "<A-l>", "<ESC>l i", opts)
 
 -- Visual --
 -- Stay in indent mode

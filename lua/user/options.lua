@@ -49,6 +49,13 @@ o.shortmess:append "c"  -- hide all the completion messages, e.g. "-- xxx comple
 o.whichwrap:append("<,>,[,],h,l")  -- keys allowed to move to the previous/next line when the beginning/end of the line is reached
 o.iskeyword:append("-")  -- treats words with `-` as single words
 
+
+o.list = true
+o.listchars:append "space:⋅"
+o.listchars:append "eol:↴"
+
+vim.cmd "map q <Nop>" -- disable macro recording
+
 -- use vim.cmd to vim commands as it is
 -- vim.cmd "set number"
 

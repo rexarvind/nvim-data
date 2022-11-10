@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7df69f4491d9ab2e00f9c327ae959183",
+    "content-hash": "90c89b942b32eaf4b64bd13a2c47861c",
     "packages": [
         {
             "name": "php-stubs/acf-pro-stubs",

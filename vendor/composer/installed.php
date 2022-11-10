@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '76b9343ab8198997858760e10be15fbe3a8feac6',
+        'reference' => 'a9d10fb8922cd133922329e19eb1a8a944c18ca7',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '76b9343ab8198997858760e10be15fbe3a8feac6',
+            'reference' => 'a9d10fb8922cd133922329e19eb1a8a944c18ca7',
             'dev_requirement' => false,
         ),
         'giacocorsiglia/wordpress-stubs' => array(
