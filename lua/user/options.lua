@@ -27,13 +27,14 @@ o.updatetime = 300  -- faster completions (4000ms default)
 o.writebackup = false  -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
 -- o.autoindent = true  -- indendt new line the same amount as the line just typed
 o.expandtab = true  -- convert tabs to spaces
-o.shiftwidth = 2  -- number of spaces inserted for each indentation
-o.tabstop = 2  -- number of spaces for TAB key
--- o.softtabstop = 2  -- see multiple space as tabstops so <BS> does the right thing
--- o.retab = 2  -- change tabs to 2 for new files
+o.shiftwidth = 4  -- number of spaces inserted for each indentation
+o.tabstop = 4  -- number of spaces for TAB key
+-- o.softtabstop = 4  -- see multiple space as tabstops so <BS> does the right thing
+-- o.retab = 4  -- change tabs to 2 for new files
 o.cursorline = true  -- highlight current line of text cursor
 o.cursorcolumn = false  -- highlight current column of text curson
 o.number = true  -- set numbered lines
+o.relativenumber = true -- relative line number
 o.laststatus = 3  -- only the last window will always have a status line
 o.showcmd = false  -- hide (partial) command in the last line of the screen (for performance)
 o.ruler = false  -- hide the line and column number of the cursor position
@@ -42,7 +43,7 @@ o.signcolumn = "yes"  -- always show the sign column, otherwise it would shift t
 o.wrap = false  -- display lines as one long line
 o.scrolloff = 4  -- minimum number of screen lines to keep above and below the cursor
 o.sidescrolloff = 4  -- minimum number of screen lines columns to keep to left and right of the cursor if warp is `false`
-o.guifont = "FiraCode NFM:h10"  -- the font used in graphical neovim applications
+o.guifont = "FiraCode NFM:h11"  -- the font used in graphical neovim applications
 -- o.guioptions+=b  -- set horizontal scrollbar
 o.fillchars.eob=" "  -- show empty lines at the end of a buffer as ` ` (default is `-`)
 o.shortmess:append "c"  -- hide all the completion messages, e.g. "-- xxx completion (yyy)", "match 1 of 2", "The only watch", "Pattern not found"
@@ -52,7 +53,7 @@ o.iskeyword:append("-")  -- treats words with `-` as single words
 
 o.list = true
 o.listchars:append "space:⋅"
-o.listchars:append "eol:↴"
+-- o.listchars:append "eol:↴"
 
 vim.cmd "map q <Nop>" -- disable macro recording
 
