@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["alpha-nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\alpha-nvim",
-    url = "https://github.com/goolord/alpha-nvim"
-  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
@@ -124,6 +119,12 @@ _G.packer_plugins = {
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darkplus.nvim",
     url = "https://github.com/lunarvim/darkplus.nvim"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    needs_bufread = false,
+    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -154,11 +155,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
-  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
@@ -168,11 +164,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-lsp-installer"] = {
-    loaded = true,
-    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
-    url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -209,11 +200,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["project.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\project.nvim",
-    url = "https://github.com/ahmedkhalf/project.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\WELCOME\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -237,6 +223,13 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Setup for: emmet-vim
+time([[Setup for emmet-vim]], true)
+try_loadstring("\27LJ\2\n=\0\0\2\0\4\0\0056\0\0\0009\0\1\0'\1\3\0=\1\2\0K\0\1\0\n<A-,>\26user_emmet_leader_key\6g\bvim\0", "setup", "emmet-vim")
+time([[Setup for emmet-vim]], false)
+time([[packadd for emmet-vim]], true)
+vim.cmd [[packadd emmet-vim]]
+time([[packadd for emmet-vim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

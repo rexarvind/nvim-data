@@ -75,13 +75,18 @@ return {
         "zip",
         "zlib",
         "wordpress-stubs",
-		    "wordpress-globals",
-		    "woocommerce-stubs",
-		    -- "acf-pro",
+		"wordpress-globals",
+	    "woocommerce-stubs",
+	    "acf-pro",
         "acf-pro-stubs",
       },
 	    environment = {
-	  	  includePaths = "../../../../vendor/php-stubs/"
+	  	  includePaths = {
+                    "./../../../../vendor/php-stubs/wordpress-stubs/wordpress-stubs.php",
+                    "./../../../../vendor/php-stubs/wordpress-globals/wordpress-globals.php",
+                    "./../../../../vendor/php-stubs/woocommerce-stubs/woocommerce-stubs.php",
+                    "./../../../../vendor/php-stubs/acf-pro-stubs/acf-pro-stubs.php",
+                },
 	    },
 	    files = {
 		    maxSize = 5000000;

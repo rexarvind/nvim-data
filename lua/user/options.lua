@@ -57,6 +57,12 @@ o.listchars:append "space:⋅"
 
 vim.cmd "map q <Nop>" -- disable macro recording
 
+vim.filetype.add{
+    extension = {
+        astro = "astro",
+    },
+}
+
 -- use vim.cmd to vim commands as it is
 -- vim.cmd "set number"
 

@@ -1,13 +1,15 @@
 
 local servers = {
---	"sumneko_lua",
+    "sumneko_lua",
 	"cssls",
 	"html",
-	"intelephense",
 	"grammarly",
 	"tsserver",
+    "emmet_ls",
+	"intelephense",
+    "astro",
 	-- "jsonls",
-  -- "yamlls",
+    -- "yamlls",
 }
 
 local settings = {
